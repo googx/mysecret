@@ -27,7 +27,7 @@
       openssl aes-256-cbc -d -a -nosalt \
       -K ${TMP_KEY} \
       -iv ${TMP_IV} \
-      -in master.gpg.key.enc \
+      -in master.gpg.key \
       -out master.gpg.key.dec
    ```
 4. 也可以用 以下命令 进行 加密文件
@@ -38,6 +38,6 @@
       openssl aes-256-cbc -e -a -nosalt \
       -K ${TMP_KEY} \
       -iv ${TMP_IV} \
-      -in master.gpg.key \
+      -in master.gpg.key.dec \
       -out master.gpg.key.enc
    ```
