@@ -10,7 +10,8 @@
 *.pptx
 ## end group:  office 
 
-
+master.gpg.key
+master.gpg.key.dec
 
 ## start group:  Output 
 *.out
