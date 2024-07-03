@@ -41,3 +41,4 @@
       -in master.gpg.key.dec \
       -out master.gpg.key.enc
    ```
+5. 接着 就可以 使用 `gpg --import master.gpg.key.dec` 导入密钥了,注意此密钥还有常用密码进行基础保护.
